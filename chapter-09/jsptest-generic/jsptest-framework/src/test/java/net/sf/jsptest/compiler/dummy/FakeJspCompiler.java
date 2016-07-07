@@ -1,9 +1,10 @@
 package net.sf.jsptest.compiler.dummy;
 
-import java.util.Map;
 import net.sf.jsptest.compiler.api.Jsp;
 import net.sf.jsptest.compiler.api.JspCompiler;
 import net.sf.jsptest.compiler.api.JspExecution;
+
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

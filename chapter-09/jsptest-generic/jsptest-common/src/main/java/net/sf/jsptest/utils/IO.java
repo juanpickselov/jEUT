@@ -15,12 +15,7 @@
  */
 package net.sf.jsptest.utils;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 /**
  * The <tt>IO</tt> class provides utility methods for handling I/O related tasks

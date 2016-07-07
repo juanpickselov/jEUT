@@ -16,17 +16,12 @@ package net.sf.jsptest.compiler.jsp20.mock;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.util.Locale;
+
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import java.util.Locale;
 
 /**
  * @author Lasse Koskela

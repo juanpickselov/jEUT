@@ -15,11 +15,12 @@
  */
 package net.sf.jsptest.compiler.jsp20.mock.taglibs;
 
-import java.util.Iterator;
-import java.util.List;
-import javax.servlet.ServletContext;
 import org.apache.jasper.JasperException;
 import org.apache.jasper.compiler.TldLocationsCache;
+
+import javax.servlet.ServletContext;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * @author Lasse Koskela

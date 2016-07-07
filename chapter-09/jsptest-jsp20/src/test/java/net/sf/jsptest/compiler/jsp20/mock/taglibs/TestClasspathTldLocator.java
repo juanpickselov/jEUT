@@ -1,7 +1,8 @@
 package net.sf.jsptest.compiler.jsp20.mock.taglibs;
 
-import java.io.File;
 import junit.framework.TestCase;
+
+import java.io.File;
 
 /**
  * @author Lasse Koskela

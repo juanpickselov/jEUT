@@ -1,8 +1,8 @@
 package net.sf.jsptest.compiler.jsp20.mock;
 
+import javax.servlet.ServletOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
-import javax.servlet.ServletOutputStream;
 
 /**
  * @author Lasse Koskela

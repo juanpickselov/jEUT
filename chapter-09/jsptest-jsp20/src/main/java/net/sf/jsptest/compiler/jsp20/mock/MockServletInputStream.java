@@ -1,8 +1,8 @@
 package net.sf.jsptest.compiler.jsp20.mock;
 
+import javax.servlet.ServletInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import javax.servlet.ServletInputStream;
 
 /**
  * Mock implementation of <code>ServletInputStream</code>.

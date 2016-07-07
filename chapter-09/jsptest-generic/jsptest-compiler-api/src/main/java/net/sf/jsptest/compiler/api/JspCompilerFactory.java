@@ -1,12 +1,9 @@
 package net.sf.jsptest.compiler.api;
 
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Properties;
 import org.apache.log4j.Logger;
+
+import java.net.URL;
+import java.util.*;
 
 /**
  * @author Lasse Koskela

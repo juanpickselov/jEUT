@@ -1,11 +1,12 @@
 package net.sf.jsptest.compiler.jsp20;
 
-import java.io.File;
-import java.util.Map;
 import net.sf.jsptest.compiler.JspCompilationInfo;
 import net.sf.jsptest.compiler.api.Jsp;
 import net.sf.jsptest.compiler.api.JspCompiler;
 import net.sf.jsptest.utils.CustomClassLoader;
+
+import java.io.File;
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

@@ -1,7 +1,8 @@
 package net.sf.jsptest.utils;
 
-import java.io.File;
 import junit.framework.TestCase;
+
+import java.io.File;
 
 /**
  * @author Lasse Koskela

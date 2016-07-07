@@ -15,13 +15,13 @@
  */
 package net.sf.jsptest.acceptance.jsp;
 
-import java.io.IOException;
-import java.util.Enumeration;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
+import java.io.IOException;
+import java.util.Enumeration;
 
 /**
  * @author Lasse Koskela

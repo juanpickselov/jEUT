@@ -1,24 +1,16 @@
 package net.sf.jsptest.compiler.jsp20.mock;
 
-import java.io.IOException;
-import java.util.Collection;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Vector;
-import javax.servlet.Servlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import org.apache.commons.el.ExpressionEvaluatorImpl;
+import org.apache.commons.el.VariableResolverImpl;
+
+import javax.servlet.*;
 import javax.servlet.http.HttpSession;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.el.ExpressionEvaluator;
 import javax.servlet.jsp.el.VariableResolver;
-import org.apache.commons.el.ExpressionEvaluatorImpl;
-import org.apache.commons.el.VariableResolverImpl;
+import java.io.IOException;
+import java.util.*;
 
 /**
  * @author Lasse Koskela

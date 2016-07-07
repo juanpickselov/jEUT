@@ -15,9 +15,6 @@
  */
 package net.sf.jsptest.compiler.jsp20.mock;
 
-import java.io.File;
-import java.util.Map;
-import javax.servlet.ServletContext;
 import net.sf.jsptest.compiler.JspCompilationInfo;
 import net.sf.jsptest.compiler.jsp20.mock.taglibs.MockTldLocationsCache;
 import org.apache.jasper.Options;
@@ -25,6 +22,10 @@ import org.apache.jasper.compiler.JspConfig;
 import org.apache.jasper.compiler.MockTagPluginManager;
 import org.apache.jasper.compiler.TagPluginManager;
 import org.apache.jasper.compiler.TldLocationsCache;
+
+import javax.servlet.ServletContext;
+import java.io.File;
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

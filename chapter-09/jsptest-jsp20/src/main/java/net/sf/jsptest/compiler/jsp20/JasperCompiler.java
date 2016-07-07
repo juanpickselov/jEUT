@@ -15,19 +15,6 @@
  */
 package net.sf.jsptest.compiler.jsp20;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.jsp.tagext.TagInfo;
 import net.sf.jsptest.compiler.JspCompilationInfo;
 import net.sf.jsptest.compiler.java.CommandLineJavac;
 import net.sf.jsptest.compiler.java.Java6Compiler;
@@ -50,6 +37,20 @@ import org.apache.jasper.compiler.JspRuntimeContext;
 import org.apache.jasper.compiler.ServletWriter;
 import org.apache.jasper.servlet.JspCServletContext;
 import org.apache.jasper.servlet.JspServletWrapper;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.jsp.tagext.TagInfo;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /**
  * The <tt>JasperTestCase</tt> provides a facility for compiling JavaServer Pages outside a real

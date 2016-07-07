@@ -15,10 +15,12 @@
  */
 package net.sf.jsptest.compiler.jsp20;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import junit.framework.TestCase;
+import net.sf.jsptest.compiler.JspCompilationInfo;
+import net.sf.jsptest.compiler.jsp20.mock.*;
+import net.sf.jsptest.utils.CustomClassLoader;
+import net.sf.jsptest.utils.IO;
+
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -27,18 +29,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.jsp.JspFactory;
-import junit.framework.TestCase;
-import net.sf.jsptest.compiler.JspCompilationInfo;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpServletRequest;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpServletResponse;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpSession;
-import net.sf.jsptest.compiler.jsp20.mock.MockJspFactory;
-import net.sf.jsptest.compiler.jsp20.mock.MockJspWriter;
-import net.sf.jsptest.compiler.jsp20.mock.MockPageContext;
-import net.sf.jsptest.compiler.jsp20.mock.MockServletConfig;
-import net.sf.jsptest.compiler.jsp20.mock.MockServletContext;
-import net.sf.jsptest.utils.CustomClassLoader;
-import net.sf.jsptest.utils.IO;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * The <tt>JasperTestCase</tt> provides a facility for rendering JavaServer Pages outside a real

@@ -1,7 +1,7 @@
 package net.sf.jsptest.assertion;
 
-import net.sf.jsptest.HtmlTestCase;
 import junit.framework.AssertionFailedError;
+import net.sf.jsptest.HtmlTestCase;
 
 /**
  * @author Lasse Koskela

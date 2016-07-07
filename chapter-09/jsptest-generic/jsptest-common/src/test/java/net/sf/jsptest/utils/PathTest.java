@@ -1,10 +1,11 @@
 package net.sf.jsptest.utils;
 
+import junit.framework.TestCase;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import junit.framework.TestCase;
 
 /**
  * @author Lasse Koskela

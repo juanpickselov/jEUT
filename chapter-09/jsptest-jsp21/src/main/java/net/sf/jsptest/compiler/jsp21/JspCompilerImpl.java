@@ -1,8 +1,9 @@
 package net.sf.jsptest.compiler.jsp21;
 
-import java.util.Map;
 import net.sf.jsptest.compiler.api.Jsp;
 import net.sf.jsptest.compiler.api.JspCompiler;
+
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

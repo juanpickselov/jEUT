@@ -1,12 +1,12 @@
 package net.sf.jsptest.compiler.java;
 
+import net.sf.jsptest.utils.IO;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-
-import net.sf.jsptest.utils.IO;
 
 public class Java6Compiler extends CommandLineJavac {
 	private static final String TMPDIR = System.getProperty("java.io.tmpdir");

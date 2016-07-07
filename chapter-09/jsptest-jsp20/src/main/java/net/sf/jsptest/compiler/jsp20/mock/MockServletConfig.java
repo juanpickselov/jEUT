@@ -15,10 +15,10 @@
  */
 package net.sf.jsptest.compiler.jsp20.mock;
 
-import java.util.Enumeration;
-import java.util.Vector;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * @author Lasse Koskela

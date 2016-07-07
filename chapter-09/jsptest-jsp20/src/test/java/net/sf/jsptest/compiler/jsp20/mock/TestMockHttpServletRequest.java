@@ -1,21 +1,9 @@
 package net.sf.jsptest.compiler.jsp20.mock;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.List;
-
 import junit.framework.TestCase;
+
+import java.io.*;
+import java.util.*;
 
 public class TestMockHttpServletRequest extends TestCase {
 

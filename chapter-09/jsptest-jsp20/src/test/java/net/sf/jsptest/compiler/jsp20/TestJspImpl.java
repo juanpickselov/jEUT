@@ -1,9 +1,9 @@
 package net.sf.jsptest.compiler.jsp20;
 
-import java.io.IOException;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
+import junit.framework.TestCase;
+import net.sf.jsptest.compiler.api.JspExecution;
+import net.sf.jsptest.compiler.jsp20.mock.MockJspWriter;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -12,9 +12,10 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.jsp.JspFactory;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
-import junit.framework.TestCase;
-import net.sf.jsptest.compiler.api.JspExecution;
-import net.sf.jsptest.compiler.jsp20.mock.MockJspWriter;
+import java.io.IOException;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

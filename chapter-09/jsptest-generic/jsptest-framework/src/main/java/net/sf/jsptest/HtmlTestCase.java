@@ -15,22 +15,19 @@
  */
 package net.sf.jsptest;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import net.sf.jsptest.assertion.ElementAssertion;
-import net.sf.jsptest.assertion.ElementChooser;
-import net.sf.jsptest.assertion.FormAssertion;
-import net.sf.jsptest.assertion.NameChooser;
-import net.sf.jsptest.assertion.PageAssertion;
+import net.sf.jsptest.assertion.*;
 import net.sf.jsptest.utils.IO;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.tidy.Tidy;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 /**
  * The <tt>HtmlTestCase</tt> class provides a facility for rendering a JSP and a set of assertion

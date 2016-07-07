@@ -15,11 +15,12 @@
  */
 package net.sf.jsptest.compiler.java;
 
+import net.sf.jsptest.utils.StreamConsumer;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import net.sf.jsptest.utils.StreamConsumer;
 
 /**
  * @author Lasse Koskela

@@ -15,17 +15,18 @@
  */
 package net.sf.jsptest.utils;
 
-import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
 
 /**
  * The <tt>XML</tt> class provides utility methods for handling XML related tasks.

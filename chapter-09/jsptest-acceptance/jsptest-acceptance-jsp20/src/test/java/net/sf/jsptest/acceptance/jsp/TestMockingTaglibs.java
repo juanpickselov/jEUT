@@ -15,10 +15,11 @@
  */
 package net.sf.jsptest.acceptance.jsp;
 
+import net.sf.jsptest.JspTestCase;
+
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
-import net.sf.jsptest.JspTestCase;
 
 /**
  * @author Lasse Koskela

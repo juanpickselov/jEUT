@@ -1,7 +1,7 @@
 package net.sf.jsptest;
 
-import net.sf.jsptest.compiler.dummy.FakeJspCompiler;
 import junit.framework.TestCase;
+import net.sf.jsptest.compiler.dummy.FakeJspCompiler;
 
 /**
  * @author Lasse Koskela

@@ -1,10 +1,11 @@
 package net.sf.jsptest.utils;
 
+import junit.framework.TestCase;
+
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import junit.framework.TestCase;
 
 /**
  * @author Lasse Koskela

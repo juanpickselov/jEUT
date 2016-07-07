@@ -5,6 +5,7 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assume.assumeTrue;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class TestConfiguration2 {
@@ -24,6 +25,7 @@ public class TestConfiguration2 {
 		assertThat(downloadsDir, matches("/Users/(.*?)/Downloads"));
 	}
 
+	@Ignore
 	@Test
 	public void knowsTheSystemsDownloadDirectoryOnWindows() throws Exception {
 		assumeTrue(platform.isWindows());

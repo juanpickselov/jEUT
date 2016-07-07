@@ -15,9 +15,6 @@
  */
 package net.sf.jsptest;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 import junit.framework.TestCase;
 import net.sf.jsptest.assertion.OutputAssertion;
 import net.sf.jsptest.compiler.api.Jsp;
@@ -25,6 +22,10 @@ import net.sf.jsptest.compiler.api.JspCompiler;
 import net.sf.jsptest.compiler.api.JspCompilerFactory;
 import net.sf.jsptest.compiler.api.JspExecution;
 import org.apache.log4j.Logger;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * An abstract base class to be extended by the user. The <tt>JspTestCase</tt> class provides a

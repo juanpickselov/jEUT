@@ -1,23 +1,30 @@
 package com.juanpickselov.learning.tests;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertThat;
-
 import org.junit.Test;
 
-public class JUnitAssertFun {
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.*;
 
+public class JUnitAssertFun {
+	
+	static String laDeeDah = "Well La Dee Dah!";
+	static String phoneNum = "+1 (234) 567-8900";
+	static String blah = "blah";
+	
 	@Test
 	public void assertThatFun() {
-		assertThat("+1 (234) 567-8900", is("+1 (234) 567-8900"));
+		System.out.println("Well La Dee Dah!");
+		assertThat(phoneNum, is("+1 (234) 567-8900"));
+	}
+	
+	@Test
+	public void assertThatToo() {
+		assertThat("Well La Dee Dah!", is(laDeeDah));
 	}
 
 	@Test
 	public void assertEqualsFun() {
-		assertEquals("blah", "blah");
+		assertEquals("blah", blah);
 	}
 
 	@Test
@@ -34,4 +41,24 @@ public class JUnitAssertFun {
 		assertSame(stringRay1, stringRay2);
 	}
 	
+	
+	@Test
+	public void ladeedah() {
+		for (Integer i=0; i<10;i++) {
+			arrowDivider(i);
+			assertThatFun();
+		}
+	}
+
+	@Test
+	public void stupidPrint() {
+		for (int i=0;i<50;i++){
+			arrowDivider(i);
+		}
+		
+	}
+	
+	private void arrowDivider(Integer i) {
+		System.out.println(i + " - - - > ");
+	}
 }

@@ -1,6 +1,10 @@
 package net.sf.jsptest.compiler.jsp20;
 
-import java.util.Map;
+import net.sf.jsptest.compiler.api.Jsp;
+import net.sf.jsptest.compiler.api.JspExecution;
+import net.sf.jsptest.compiler.jsp20.mock.*;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -9,20 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.jsp.JspFactory;
-
-import net.sf.jsptest.compiler.api.Jsp;
-import net.sf.jsptest.compiler.api.JspExecution;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpServletRequest;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpServletResponse;
-import net.sf.jsptest.compiler.jsp20.mock.MockHttpSession;
-import net.sf.jsptest.compiler.jsp20.mock.MockJspFactory;
-import net.sf.jsptest.compiler.jsp20.mock.MockJspWriter;
-import net.sf.jsptest.compiler.jsp20.mock.MockPageContext;
-import net.sf.jsptest.compiler.jsp20.mock.MockServletConfig;
-import net.sf.jsptest.compiler.jsp20.mock.MockServletContext;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import java.util.Map;
 
 /**
  * @author Lasse Koskela

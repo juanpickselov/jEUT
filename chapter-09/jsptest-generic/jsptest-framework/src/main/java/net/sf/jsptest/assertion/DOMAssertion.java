@@ -1,11 +1,12 @@
 package net.sf.jsptest.assertion;
 
-import java.util.List;
 import junit.framework.Assert;
 import net.sf.jsptest.utils.XML;
 import org.jaxen.JaxenException;
 import org.jaxen.dom.DOMXPath;
 import org.w3c.dom.Element;
+
+import java.util.List;
 
 /**
  * Base class providing assertion methods related to the HTML DOM tree.

@@ -1,11 +1,12 @@
 package net.sf.jsptest.assertion;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import junit.framework.Assert;
 import net.sf.jsptest.html.Form;
 import net.sf.jsptest.html.FormField;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * Provides form field-oriented assertion methods.
