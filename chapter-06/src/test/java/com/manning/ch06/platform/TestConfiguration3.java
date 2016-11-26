@@ -8,13 +8,13 @@ import org.junit.Test;
 
 public class TestConfiguration3 {
 
+	@Ignore
 	@Test
 	public void knowsTheSystemsDownloadDirectoryOnMacOsX() throws Exception {
 		String downloadsDir = new Platform.MacOsX().downloadDir();
 		assertThat(downloadsDir, matches("/Users/(.*?)/Downloads"));
 	}
 
-	@Ignore
 	@Test
 	public void knowsTheSystemsDownloadDirectoryOnWindows() throws Exception {
 		String downloadsDir = new Platform.Windows().downloadDir();

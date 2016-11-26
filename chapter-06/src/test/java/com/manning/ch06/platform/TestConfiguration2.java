@@ -19,13 +19,13 @@ public class TestConfiguration2 {
 		downloadsDir = Configuration.downloadDir().getAbsolutePath();
 	}
 
+	@Ignore
 	@Test
 	public void knowsTheSystemsDownloadDirectoryOnMacOsX() throws Exception {
 		assumeTrue(platform.isMac());
 		assertThat(downloadsDir, matches("/Users/(.*?)/Downloads"));
 	}
 
-	@Ignore
 	@Test
 	public void knowsTheSystemsDownloadDirectoryOnWindows() throws Exception {
 		assumeTrue(platform.isWindows());

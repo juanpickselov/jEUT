@@ -55,7 +55,6 @@ public class JUnitAssertFun {
 		for (int i=0;i<50;i++){
 			arrowDivider(i);
 		}
-		
 	}
 	
 	private void arrowDivider(Integer i) {
