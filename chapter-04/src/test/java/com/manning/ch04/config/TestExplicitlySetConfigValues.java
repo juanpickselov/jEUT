@@ -14,6 +14,7 @@ public class TestExplicitlySetConfigValues extends AbstractConfigTestCase {
 	@Test
 	public void explicitOptionsAreSetCorrectly() {
 		assertEquals("hello.txt", c.getFileName());
+		System.out.println(c.getFileName());
 		assertTrue(c.isDebuggingEnabled());
 		assertTrue(c.isWarningsEnabled());
 		assertTrue(c.isVerbose());
