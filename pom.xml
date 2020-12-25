@@ -11,14 +11,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-	<modules>
-		<module>chapter-02</module>
-		<module>chapter-03</module>
-		<module>chapter-04</module>
-		<module>chapter-05</module>
-		<module>chapter-08</module>
-		<module>chapter-09</module>
-	</modules>
 	<build>
 		<extensions>
 			<extension>
