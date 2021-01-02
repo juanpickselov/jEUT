@@ -17,13 +17,19 @@ public class TemporaryFolderTest {
 
 	@Test
 	public void thisTempFileIsSquashedAfterTheTest() throws Exception {
-		File tempFile = folder.newFile("myTempFile.txt");
+		File tempFile = folder.newFile("./myTempFile.txt");
 		assertTrue(tempFile.exists());
 	}
 
 	@Test
 	public void allJunkWillBeGoneAfterTheTestHasRun() {
-		File tempDir = folder.newFolder("myTempDir");
+		//File tempDir = folder.newFolder("myTempDir");
+		File tempDir = null;
+		try {
+			tempDir = folder.newFolder( "purplehaze");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		createRandomJunkIn(new File(tempDir, "mah-junk.txt"));
 		createRandomJunkIn(new File(tempDir, "moar-junk.txt"));
 	}
